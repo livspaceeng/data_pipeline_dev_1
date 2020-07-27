@@ -4,5 +4,5 @@ jobs:
             sourcePaths: ["screwdriver.yaml"]
             image: python:3.6
             steps:
-                - export: export GREETING="Hello, world!"
+                - export: export GREETING="Hello, world! welcome"
                 - hello: echo $GREETING
